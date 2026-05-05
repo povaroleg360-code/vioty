@@ -1,0 +1,54 @@
+:root{
+    --bg: #000;
+    --accent-color: #D23166;
+    --main-color: #FFF;
+    --social-bg: rgba(255, 255, 255, 0.1);
+    --card-bg: #151515;
+}
+.container{
+    width: 1267px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    outline: 1px solid red;
+}
+body{
+    background: var(--bg);
+}
+/* Header */
+.header-list{
+    display: flex;
+    gap: 95px;
+}
+.header-link{
+    color: var(--main-color);
+text-align: justify;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header-items{
+    display: flex;
+    gap: 15px;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-img{
+    width: 15px;
+    height: 15px;
+
+}
+.header-social{
+    width: 36px;
+    height: 36px;
+    background-color: var(--social-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
