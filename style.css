@@ -4,6 +4,7 @@
     --main-color: #FFF;
     --social-bg: rgba(255, 255, 255, 0.1);
     --card-bg: #151515;
+    --about-span: rgba(255, 255, 255, 0.20);
 }
 .container{
     width: 1267px;
@@ -12,10 +13,17 @@
     padding-left: 10px;
     outline: 1px solid red;
 }
+button{
+    border: none;
+}
 body{
     background: var(--bg);
 }
 /* Header */
+header{
+    padding: 40px 0 37px 0;
+    justify-content: center;
+}
 .header-list{
     display: flex;
     gap: 95px;
@@ -51,4 +59,252 @@ line-height: normal;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+/* Hero Section */
+.hero{
+    display: flex;
+}
+.hero .container{
+    margin: 125px 73px 20px 96px;
+    height: 588px;
+    display: flex;
+}
+.hero-header{
+    color: var(--main-color);
+    align-self: stretch;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+margin-bottom: 20px;
+padding-top: 125px
+}
+.hero-header2{
+    color: var(--main-color);
+    align-self: stretch;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+}
+.hero-span{
+    color: var(--accent-color);
+    align-self: stretch;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+}
+.hero-paragraph{
+color: #FFF;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+margin-top: 16px;
+margin-bottom: 48px;
+}
+.hero-button{
+    display: flex;
+padding: 13px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background-color: var(--accent-color);
+color: var(--main-color)
+}
+.container-hero2{
+    height: 337;
+    margin: 0 96px 0 0;
+}
+.hero-img{
+    width: 588px;
+    height: 588px;
+}
+/* About Section */
+.about .container{
+    height: 399px;
+    margin: 60px 96px  96px;
+    position: relative;
+}
+.about-text{
+    color: var(--main-color);
+text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -4.013px;
+padding: 69px 0 45px 0;
+}
+.about-span{
+    color: var(--about-span);
+    text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -4.013px;
+}
+.about-milk{
+    position: absolute;
+    left: 40px;
+    top: 170px;
+}
+.about-strawberry{
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+}
+.about-pistachio{
+    position: absolute;
+    top: 1px;
+    right: 130px;
+}
+/* Product Section */
+.product{ 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.product .container{
+    height: 629px;
+    margin-bottom: 56px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.product-wrap{
+    display: flex; 
+    margin: 0 auto;
+    justify-content: center;
+}
+.product-buttons{
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    margin-left: 872px;
+}
+.product-title{
+    color: var(--main-color);
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 94%;
+letter-spacing: -3.92px;
+opacity: 0.9;
+}
+.product-list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+}
+.product-card{
+    width: 297px;
+    height: 520px;
+    background-color: var(--card-bg);
+}
+.product-left{
+   width: 48px;
+   height: 48px;
+   justify-content: end;
+}
+.product-right{
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+}
+.product-select{
+    background-color: var(--social-bg);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-img{
+    aspect-ratio: 142/131;
+border-radius: 20px;
+background: lightgray -58.149px 0px / 139.473% 100% no-repeat;
+width: 297.0px;
+height: 274.0px;
+}
+.product-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 28px;
+}
+.product-price{
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+color: var(--main-color);
+font-family: "Hind Madurai";
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+}
+.product-price2{
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+color: var(--main-color);
+font-family: "Hind Madurai";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+text-decoration-line: line-through;
+opacity: 0.7;
+}
+.product-button{
+    display: flex;
+padding: 15px 46px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 5px;
+background: var(--accent-color);
+color: var(--main-color);
+margin-top: 16px;
+}
+.product-desc{
+    color: var(--main-color);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+opacity: 0.7;
+margin-top: 18px;
+}
+.product-caption{
+    color: var(--main-color);
+font-family: "Hind Madurai";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.product-wrapper{
+    margin-left: 30px;
+    width: 237px;
+    height: 222px;
 }
